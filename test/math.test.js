@@ -43,7 +43,6 @@ describe('When checking a number', () => {
             expect(e).not.toBeNull();
             expect(e.message).toBe("pas un nombre");
         }
-       
     });
 })
 
