@@ -1,4 +1,4 @@
-const {sum, divide, checkNumber} = require("./../src/math.js");
+let {sum,divide,executeExpression,checkNumber} = require("./../src/math.js");
 
 test('When i try to add 2 numbers, then i should have the sum result',() =>{
     expect(sum(1,5)).toBe(6);
@@ -46,3 +46,4 @@ describe('When checking a number', () => {
        
     });
 })
+

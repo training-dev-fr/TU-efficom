@@ -24,7 +24,7 @@ const divide = (dividend, divisor) => {
         return new Error("veuillez saisir des nombres");
     }
     if (divisor > 0) {
-        return dividend / divisor
+        return dividend / divisor;
     } else {
         return false
     }
@@ -72,4 +72,4 @@ function checkNumber(number) {
 }
 
 
-module.exports = { sum, substract,multiply, divide, checkNumber,executeExpression };
+module.exports = { sum, substract,multiply, divide, checkNumbe };
