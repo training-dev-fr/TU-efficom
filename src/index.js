@@ -1,3 +1,3 @@
-const {sum} = require("./math.js");
+const {executeExpression} = require("./math.js");
 
-console.log(sum(1,5));
+console.log(executeExpression("15"));

@@ -16,7 +16,7 @@ beforeEach(() => {
     jest.resetAllMocks();
     global.localStorage = {};
     global.localStorage.addItem = jest.fn();
-})
+});
 
 describe('When i try to authentified', () => {
     test('with valid login and password', async () => {
